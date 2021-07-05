@@ -1,0 +1,123 @@
+body{
+    font-family: font-family: 'Poppins', sans-serif;
+    margin :0;
+}
+/*Fisrt Section*/
+
+.first-section{
+    display: flex;
+    margin: 0;
+
+}
+.first-left-width{
+    width: 50%;
+    margin:20px;
+    padding:20px ;
+}
+h1{
+    font-size: 50px;
+}
+.Orange-Color{
+    color :blue;
+}
+h3{
+font-size:25px;
+font-weight: bold;
+}
+p{  
+    width:80%;
+    font-size: 25px;
+    
+    color: gray;
+}
+.link-button{
+    background-image:linear-gradient(blue,orange) ;
+    text-decoration: none;
+    font-weight: bold;
+    color:orange;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+   
+  
+}
+.first-right-width img{
+    margin:15px;
+    padding-top: 25px;
+    width: 60%;
+}
+.first-section{
+    background-image: url(use-image/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+/*second section*/
+ .second-section{
+     display: flex;
+     margin :0;
+     margin-top: 38px;
+    
+ }
+ .second-left-width{
+     width: 50%;
+     margin:20px;
+     padding:20px ;
+ }
+ .second-left-width img{
+    margin:15px;
+    padding-top: 25px;
+    width: 80%;
+ }
+ .second-right-width{
+     width: 50%;
+     margin:20px;
+     padding:20px ;
+ }
+ 
+ .second-right-width{
+  
+    background-image: url(use-image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/*Third section*/
+
+.third-section{
+    display: flex;
+    margin :0;
+}
+.third-left-section{
+    width: width: 50%;
+    margin:50px;
+    padding:50px ; 
+    box-shadow :5px 5px 5px 2px gray;
+}
+.third-right-section{
+    border-radius: 15px;
+    width: width: 50%;
+    margin: 50px;
+    padding:50px ; 
+    box-shadow :5px 5px 5px 2px gray;
+   
+}
+#third-right-section{
+
+    border-left:7px solid;
+    border-image: linear-gradient(blue ,tomato);
+    border-image-slice:1;
+}
+#third-left-section{
+    border-left:7px solid;
+    border-image: linear-gradient(salmon ,tomato);
+    border-image-slice:1; 
+}
+.third-left-section{
+    background-image: url(use-image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;  
+}
+/*Fourth Section*/
+ footer p{
+     width: 100%;
+     text-align: center;
+ }
